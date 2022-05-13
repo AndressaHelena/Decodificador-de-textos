@@ -91,7 +91,7 @@ main .wrapper {
 
   gap: 3.2rem;
 
-  margin-top: 1.6rem;
+  margin-top: 2.4rem;
 }
 
 /* --------------------- entrada de texto --------------------- */
@@ -114,6 +114,13 @@ main .wrapper {
 
 .alerta {
   font-size: 1.2rem;
+}
+
+#button {
+  display:inline-flex;
+  align-items:center;
+  Gap: 1rem;
+
 }
 
 #btn-cripto,
@@ -159,6 +166,11 @@ main .wrapper {
 
   background-color: var(--font-color);
   box-shadow: 0 0 15px var(--button);
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
 }
 
 #btn-copy,
@@ -236,9 +248,10 @@ main .wrapper {
 
 .cards ul {
   padding-block: 1rem;
+  margin-inline: auto;
 
   /* gambiarra */
-  padding-left: 5rem;
+ /* padding-left: 5rem;*/
 }
 
 .cards p {
